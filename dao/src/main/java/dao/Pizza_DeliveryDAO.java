@@ -7,16 +7,17 @@ import model.Rendeles;
 import model.Vevo;
 
 import java.util.ArrayList;
-import java.util.logging.Logger;
+import org.apache.log4j.Logger;
 
 public class Pizza_DeliveryDAO implements extensibility.IPizza_DeliveryDAO {
 
-    private Logger logger = Logger.getLogger(String.valueOf(this.getClass()));
+    private Logger logger = Logger.getLogger(Pizza_DeliveryDAO.class);
 
     private Adatbazis adatbazis;
 
     public Pizza_DeliveryDAO() {
         this.adatbazis = Adatbazis.getAdatbazis();
+        logger.info("DAO initialized.");
     }
 
     public void addPizza(Pizza pizza) {

@@ -33,7 +33,7 @@
   </component>
   <component name="ProjectId" id="1WiR8STMiwEZsDrd7s6uAIP6FnP" />
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/service/src/test/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dao/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -45,6 +45,7 @@
       <recent name="extensibility" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\progkornyezet_beadando\core\src\main\resources" />
       <recent name="D:\Documents\progkornyezet_beadando\service\src\main\resources" />
       <recent name="D:\Documents\progkornyezet_beadando\service\src\main" />
     </key>
@@ -66,12 +67,14 @@
   </component>
   <component name="RunManager">
     <configuration name="Unit test" type="JUnit" factoryName="JUnit">
-      <module name="service" />
-      <option name="PACKAGE_NAME" value="service" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
