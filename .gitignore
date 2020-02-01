@@ -1,0 +1,5 @@
+# Project exclude paths
+/core/target/
+/model/target/
+/dao/target/
+/service/target/
