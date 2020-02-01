@@ -19,6 +19,6 @@ Pizza_DeliveryDAO pizza_deliveryDAO;
     @Test
     public void testPizzaAdded() {
         pizza_deliveryDAO.addPizza(new Pizza("Pizza1", PizzaMeret.kozepes_32, 256000));
-        assertEquals(pizza_deliveryDAO.getAllPizza().size(),1);
+        assertEquals(1, pizza_deliveryDAO.getAllPizza().size());
     }
 }
