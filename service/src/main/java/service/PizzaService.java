@@ -8,11 +8,12 @@ import model.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.logging.Logger;
+
+import org.apache.log4j.Logger;
 
 public class PizzaService {
     private IPizza_DeliveryDAO pizza_deliveryDAO;
-    private Logger logger = Logger.getLogger(String.valueOf(this.getClass()));
+    private Logger logger = Logger.getLogger(PizzaService.class);
 
     public PizzaService(IPizza_DeliveryDAO pizza_deliveryDAO) {
         this.pizza_deliveryDAO = pizza_deliveryDAO;

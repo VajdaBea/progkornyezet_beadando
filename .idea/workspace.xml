@@ -44,6 +44,10 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="extensibility" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\progkornyezet_beadando\service\src\main\resources" />
+      <recent name="D:\Documents\progkornyezet_beadando\service\src\main" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bea\IdeaProjects\Pizza_Delivery\service\src\main\java\service" />
     </key>
@@ -91,7 +95,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
