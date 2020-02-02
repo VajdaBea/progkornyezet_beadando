@@ -43,4 +43,15 @@ public class PizzaTest {
 
         TestCase.assertEquals(ujAr, ujPizza.getAr());
     }
+
+    @Test
+    public void getPizzaMeretTest() {
+        TestCase.assertEquals(pizzaMeret, ujPizza.getPizzaMeret());
+    }
+
+    @Test
+    public void setPizzaMeretTest() {
+        ujPizza.setPizzaMeret(PizzaMeret.nagy_45);
+        TestCase.assertEquals(PizzaMeret.nagy_45, ujPizza.getPizzaMeret());
+    }
 }
