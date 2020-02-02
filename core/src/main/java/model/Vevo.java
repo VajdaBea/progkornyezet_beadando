@@ -17,35 +17,16 @@ public class Vevo {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getCim() {
         return cim;
-    }
-
-    public void setCim(String cim) {
-        this.cim = cim;
     }
 
     public String getTelefonSzam() {
         return telefonSzam;
     }
 
-    public void setTelefonSzam(String telefonSzam) {
-        this.telefonSzam = telefonSzam;
-    }
-
     public String getNev() {
         return nev;
     }
-
-    public void setNev(String nev) {
-        this.nev = nev;
-    }
-
-
-
 
 }
